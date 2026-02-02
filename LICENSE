@@ -1,6 +1,11 @@
-MIT License
+Educational License (Based on MIT)
 
 Copyright (c) 2026 Dzhafarov Oleksandr
+
+EDUCATIONAL DISCLAIMER:
+This repository contains academic coursework and educational projects created 
+for learning purposes. The code is shared publicly for educational benefit 
+and portfolio demonstration.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -12,6 +17,12 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
+UNIVERSITY/INSTITUTIONAL DISCLAIMER:
+This work is published independently by the author for educational and 
+portfolio purposes. No university, educational institution, or academic 
+organization has any claim over this publicly shared educational work. 
+The author retains all rights to share their own academic work publicly.
+
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -19,3 +30,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+ACADEMIC INTEGRITY NOTICE:
+This code is provided for educational reference. Students using this code 
+should ensure compliance with their institution's academic integrity policies.
+Direct copying for academic submissions without proper attribution may 
+constitute academic misconduct.
