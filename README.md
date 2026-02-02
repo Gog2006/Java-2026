@@ -27,7 +27,8 @@ Java-2026/
 ### TD2 - Data Structures 
 - **EnsembleEntierBorne**: Bounded integer set implementation
 - **Boolean Arrays**: Set operations using boolean arrays
-- **Topics**: Arrays, boolean logic, set operations
+- **Mystere**: Prime number sieve algorithm implementation (Sieve of Eratosthenes)
+- **Topics**: Arrays, boolean logic, set operations, algorithmic thinking
 
 ### Future TDs
 More practical sessions will be added following the same structure:
