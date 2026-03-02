@@ -12,7 +12,8 @@ This repository contains academic projects created for learning Java programming
 Java-2026/
 ├── TD1/           # Practical Work Session 1
 ├── TD2/           # Practical Work Session 2
-├── TD../          # Future practical sessions
+├── TD3/           # Practical Work Session 3
+├── TD4/           # Practical Work Session 4
 ├── LICENSE        # Educational license
 └── README.md      # This file
 ```
@@ -30,12 +31,25 @@ Java-2026/
 - **Mystere**: Prime number sieve algorithm implementation (Sieve of Eratosthenes)
 - **Topics**: Arrays, boolean logic, set operations, algorithmic thinking
 
-### Future TDs
-More practical sessions will be added following the same structure:
-- Each TD in its own directory
-- Source code in `src/` subdirectory
-- Compiled classes in `bin/` (excluded from git)
-- Package-based organization
+### TD3 - Object Composition and Aggregation
+- **Segment Class**: Geometric segment implementation with point endpoints
+- **Car System**: Complete car modeling with composition
+  - **Voiture**: Car class with engine and wheels
+  - **Moteur**: Engine component with specifications
+  - **Roue**: Wheel component with properties
+  - **Garage**: Car management and operations
+- **Topics**: Object composition, aggregation, has-a relationships, complex object modeling
+
+### TD4 - Inheritance and Polymorphism
+- **Geometric Forms**: Shape hierarchy implementation
+  - **Rectangle**: Rectangle class with dimensions
+  - **Carre**: Square class inheriting from Rectangle
+- **Vehicle Hierarchy**: Transportation system with inheritance
+  - **Vehicule**: Base vehicle class
+  - **Voiture**: Car implementation (different from TD3)
+  - **Avion**: Airplane implementation
+  - **GestionVehicules**: Vehicle management system
+- **Topics**: Inheritance, polymorphism, is-a relationships, method overriding
 
 ## How to Use
 
@@ -53,7 +67,7 @@ More practical sessions will be added following the same structure:
 
 2. **Navigate to a TD directory:**
    ```bash
-   cd TD1  # or TD2, etc.
+   cd TD1  # or TD2, TD3, TD4, etc.
    ```
 
 3. **Compile and run:**
@@ -61,8 +75,11 @@ More practical sessions will be added following the same structure:
    # Compile all Java files
    javac -d bin src/**/*.java
    
-   # Run a specific main class
-   java -cp bin point.Main
+   # Run specific main classes (examples)
+   java -cp bin point.Main              # TD1
+   java -cp bin ensembleentierborne.TestEnsemble  # TD2
+   java -cp bin segment.TestSegment     # TD3
+   java -cp bin formes.Main             # TD4
    ```
 
 ### IDE Setup
@@ -72,11 +89,13 @@ More practical sessions will be added following the same structure:
 
 ## Learning Objectives
 
-- **Object-Oriented Programming**: Classes, inheritance, encapsulation
+- **Object-Oriented Programming**: Classes, inheritance, encapsulation, polymorphism
+- **Object Relationships**: Composition, aggregation, has-a and is-a relationships
 - **Data Structures**: Arrays, collections, custom implementations
 - **Java Fundamentals**: Syntax, types, control structures
-- **Software Design**: Package organization, method design
+- **Software Design**: Package organization, method design, class hierarchies
 - **Testing**: Unit testing and validation
+- **Advanced OOP**: Method overriding, abstract concepts, vehicle and shape modeling
 
 ## TD Template Structure
 
