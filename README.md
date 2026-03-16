@@ -14,6 +14,8 @@ Java-2026/
 ├── TD2/           # Practical Work Session 2
 ├── TD3/           # Practical Work Session 3
 ├── TD4/           # Practical Work Session 4
+├── TD5/           # Practical Work Session 5
+├── TD6/           # Practical Work Session 6
 ├── LICENSE        # Educational license
 └── README.md      # This file
 ```
@@ -51,6 +53,39 @@ Java-2026/
   - **GestionVehicules**: Vehicle management system
 - **Topics**: Inheritance, polymorphism, is-a relationships, method overriding
 
+### TD5 - Deeper Inheritance and Object Hierarchies
+- **Library System**: Multi-level hierarchy for library management
+  - **Ouvrage**: Base class for all library items
+  - **Livre**: Book subclass of Ouvrage
+  - **CD**: CD subclass of Ouvrage
+  - **Periodique**: Periodical subclass of Ouvrage
+  - **Bibliotheque**: Library container managing a collection of Ouvrages
+- **Extended Shapes**: Enriching existing shape hierarchy
+  - **ColoredPoint**: Colored point extending Point from TD1
+  - **Carre** / **Rectangle**: Further refinement of shape classes
+- **Vehicle Hierarchy**: Revisiting and extending the vehicle system (Vehicule, Voiture, Avion, GestionVehicules)
+- **Topics**: Multi-level inheritance, `toString()` / `equals()` overrides, heterogeneous collections, code reuse
+
+### TD6 - Abstract Classes and Interfaces
+- **Abstract Vehicle Hierarchy**: Abstract base class with mandatory override
+  - **Vehicule** (abstract): Declares abstract `calculePrix()` method
+  - **Voiture** / **Avion**: Concrete implementations with price calculation
+- **Extended Vehicle System** (ex2): Mixed abstract/concrete hierarchy
+  - **Vehicule**: Base class
+  - **Amoteur** (abstract): Motorized vehicles
+  - **SansMoteur**: Non-motorized vehicles
+  - **Voiture** / **Camion**: Extend Amoteur
+  - **Velo**: Extends SansMoteur
+- **Enterprise Payroll System**: Complex hierarchy with interfaces
+  - **Employe** (abstract): Declares abstract `calculerSalaire()`
+  - **Technicien** / **Manutentionnaire**: Concrete employee types
+  - **Commercial** (abstract): Abstract commercial employee
+  - **Vendeur** / **Representant**: Extend Commercial
+  - **ARisque** (interface): Hazard risk interface
+  - **TechARisque** / **ManutARisque**: Multiple inheritance via interface
+  - **Salaires**: Payroll management and reporting
+- **Topics**: Abstract classes, interfaces, multiple inheritance with interfaces, polymorphic method dispatch
+
 ## How to Use
 
 ### Prerequisites
@@ -67,7 +102,7 @@ Java-2026/
 
 2. **Navigate to a TD directory:**
    ```bash
-   cd TD1  # or TD2, TD3, TD4, etc.
+   cd TD1  # or TD2, TD3, TD4, TD5, TD6, etc.
    ```
 
 3. **Compile and run:**
@@ -80,6 +115,8 @@ Java-2026/
    java -cp bin ensembleentierborne.TestEnsemble  # TD2
    java -cp bin segment.TestSegment     # TD3
    java -cp bin formes.Main             # TD4
+   java -cp bin bibliotheque.Main       # TD5
+   java -cp bin entreprise.Salaires     # TD6
    ```
 
 ### IDE Setup
@@ -95,7 +132,9 @@ Java-2026/
 - **Java Fundamentals**: Syntax, types, control structures
 - **Software Design**: Package organization, method design, class hierarchies
 - **Testing**: Unit testing and validation
-- **Advanced OOP**: Method overriding, abstract concepts, vehicle and shape modeling
+- **Advanced OOP**: Method overriding, abstract classes, interfaces, vehicle and shape modeling
+- **Interfaces**: Defining contracts, implementing multiple interfaces, polymorphic dispatch
+- **Design Patterns**: Heterogeneous collections, payroll systems, library management
 
 ## TD Template Structure
 
