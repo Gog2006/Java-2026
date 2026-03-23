@@ -16,6 +16,7 @@ Java-2026/
 ├── TD4/           # Practical Work Session 4
 ├── TD5/           # Practical Work Session 5
 ├── TD6/           # Practical Work Session 6
+├── TD7/           # Practical Work Session 7
 ├── LICENSE        # Educational license
 └── README.md      # This file
 ```
@@ -86,6 +87,19 @@ Java-2026/
   - **Salaires**: Payroll management and reporting
 - **Topics**: Abstract classes, interfaces, multiple inheritance with interfaces, polymorphic method dispatch
 
+### TD7 - Generics, Collections, and Ordering
+- **Generic Objects and Messaging** (`boite`): Practice with parameterized classes and typed content
+  - **Objet<T>**: Generic object model with color state handling
+  - **Balle<T>** / **Mail<T>**: Specialized generic objects and message containers
+- **Parking Management** (`parking`): Vehicle placement using associative collections
+  - **Parking**: Slot-based parking management using `HashMap`
+  - **Vehicule** / **Voiture**: Vehicle model integrated with parking operations (`garer`, `liberer`, `chercher`)
+- **People Sorting** (`personnes`): Ordering with natural and custom comparators
+  - **Personne**: Abstract base class implementing `Comparable<Personne>`
+  - **Etudiant** / **Enseignant**: Concrete person types
+  - **CompAge**: `Comparator<Personne>` for age-based sorting
+- **Topics**: Generics, Java collections (`List`, `HashMap`), sorting (`Comparable`, `Comparator`), polymorphism in collections
+
 ## How to Use
 
 ### Prerequisites
@@ -102,7 +116,7 @@ Java-2026/
 
 2. **Navigate to a TD directory:**
    ```bash
-   cd TD1  # or TD2, TD3, TD4, TD5, TD6, etc.
+  cd TD1  # or TD2, TD3, TD4, TD5, TD6, TD7, etc.
    ```
 
 3. **Compile and run:**
@@ -117,6 +131,9 @@ Java-2026/
    java -cp bin formes.Main             # TD4
    java -cp bin bibliotheque.Main       # TD5
    java -cp bin entreprise.Salaires     # TD6
+  java -cp bin boite.Main              # TD7 (generics)
+  java -cp bin parking.Main            # TD7 (parking)
+  java -cp bin personnes.Main          # TD7 (sorting)
    ```
 
 ### IDE Setup
@@ -135,6 +152,7 @@ Java-2026/
 - **Advanced OOP**: Method overriding, abstract classes, interfaces, vehicle and shape modeling
 - **Interfaces**: Defining contracts, implementing multiple interfaces, polymorphic dispatch
 - **Design Patterns**: Heterogeneous collections, payroll systems, library management
+- **Generics & Collections**: Type-safe reusable classes, lists, maps, and custom ordering with comparators
 
 ## TD Template Structure
 
