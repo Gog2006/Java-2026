@@ -12,7 +12,7 @@ public class ColoredPoint extends Point {
 	}
 
 	public ColoredPoint(double x, double y) {
-		super(x, y);
+		super();
 	}
 
 	public ColoredPoint(Color c) {
@@ -29,13 +29,14 @@ public class ColoredPoint extends Point {
 		return p.couleur == this.couleur;
 
 	}
-
-	public ColoredPoint projX() {
-		return new ColoredPoint(this.getX(), 0, couleur);
+	@Override
+	public String projX() {
+		return new ColoredPoint(this.getX(), 0, couleur).toString();
 	}
 
-	public ColoredPoint projY() {
-		return new ColoredPoint(0, this.getY(), couleur);
+	@Override
+	public String projY() {
+		return new ColoredPoint(0, this.getY(), couleur).toString();
 	}
 
 	public ColoredPoint projX(Color c) {
