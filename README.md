@@ -17,6 +17,7 @@ Java-2026/
 ├── TD5/           # Practical Work Session 5
 ├── TD6/           # Practical Work Session 6
 ├── TD7/           # Practical Work Session 7
+├── TD8/           # Practical Work Session 8
 ├── LICENSE        # Educational license
 └── README.md      # This file
 ```
@@ -100,6 +101,16 @@ Java-2026/
   - **CompAge**: `Comparator<Personne>` for age-based sorting
 - **Topics**: Generics, Java collections (`List`, `HashMap`), sorting (`Comparable`, `Comparator`), polymorphism in collections
 
+### TD8 - Finite Automata and Text Processing
+- **Automata Engine** (`automates`): Finite state automaton modeling and word recognition
+  - **Automate**: Loads/saves automata from text files and tests recognition with `reconnait()`
+  - **Etat** / **Transition** / **Alphabet**: Core state-machine components
+  - **Main**: End-to-end tests for accepted/rejected words
+- **Text Dataset Reader** (`txtreader`): Structured text extraction and deduplication
+  - **TxtReader**: Reads tab-separated data, extracts unique commune names and postal codes
+  - Output files: `communes.txt` and `codes_postaux.txt`
+- **Topics**: Finite automata, file I/O (`BufferedReader`/`BufferedWriter`), parsing, sets (`HashSet`), data filtering
+
 ## How to Use
 
 ### Prerequisites
@@ -116,7 +127,7 @@ Java-2026/
 
 2. **Navigate to a TD directory:**
    ```bash
-  cd TD1  # or TD2, TD3, TD4, TD5, TD6, TD7, etc.
+  cd TD1  # or TD2, TD3, TD4, TD5, TD6, TD7, TD8, etc.
    ```
 
 3. **Compile and run:**
@@ -134,6 +145,8 @@ Java-2026/
   java -cp bin boite.Main              # TD7 (generics)
   java -cp bin parking.Main            # TD7 (parking)
   java -cp bin personnes.Main          # TD7 (sorting)
+  java -cp bin automates.Main          # TD8 (finite automata)
+  java -cp bin txtreader.TxtReader     # TD8 (text reader)
    ```
 
 ### IDE Setup
@@ -153,6 +166,7 @@ Java-2026/
 - **Interfaces**: Defining contracts, implementing multiple interfaces, polymorphic dispatch
 - **Design Patterns**: Heterogeneous collections, payroll systems, library management
 - **Generics & Collections**: Type-safe reusable classes, lists, maps, and custom ordering with comparators
+- **Automata & File Processing**: State machines, text parsing, and unique-value extraction from datasets
 
 ## TD Template Structure
 

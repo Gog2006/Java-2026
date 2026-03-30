@@ -1,0 +1,4 @@
+1
+initial 0
+terminal 0
+0 c 0
